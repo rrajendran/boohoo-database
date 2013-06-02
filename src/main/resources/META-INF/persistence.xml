@@ -20,7 +20,7 @@
              version="2.0">
 
     <persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
-        <class>com.boohoo.esb.database.boohoo.database.entity.User</class>
+        <class>com.boohoo.esb.database.entity.User</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 

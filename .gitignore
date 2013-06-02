@@ -1,4 +1,10 @@
 *.class
+*.war
+
+#directories
+.project/
+.settings/
+target/
 
 # Package Files #
 *.jar
