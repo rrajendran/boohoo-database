@@ -1,4 +1,4 @@
-package com.boohoo.esb.database.repository;
+package com.capella.esb.database.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.boohoo.esb.database.entity.User;
+import com.capella.esb.database.entity.User;
 @Component
 @Transactional(readOnly = true)
 

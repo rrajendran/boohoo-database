@@ -1,4 +1,4 @@
-package com.boohoo.esb.database.entity;
+package com.capella.esb.database.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

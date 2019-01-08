@@ -9,7 +9,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 	<context:annotation-config />
-	<context:component-scan base-package="com.boohoo.esb.database" />
+	<context:component-scan base-package="com.capella.esb.database" />
 	<tx:annotation-driven />
 
 	<bean id="entityManagerFactory"
@@ -43,6 +43,6 @@
 	</jdbc:initialize-database>
  	
  	
-	<jpa:repositories base-package="com.boohoo.esb.database" />
+	<jpa:repositories base-package="com.capella.esb.database" />
 	
 </beans>

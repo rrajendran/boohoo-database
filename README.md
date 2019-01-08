@@ -1,4 +1,3 @@
-boohoo-database
+blueprint-esb-database
 ===============
 
-boohoo-database

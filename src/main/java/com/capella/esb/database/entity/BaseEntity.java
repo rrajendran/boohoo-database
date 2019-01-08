@@ -1,4 +1,4 @@
-package com.boohoo.esb.database.boohoo.database.entity;
+package com.capella.esb.database.entity;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
