@@ -1,17 +1,14 @@
 package com.capella.esb.database.repository;
 
-import com.capella.esb.database.repository.UserRepository;
-import static org.junit.Assert.*;
-
-import java.util.List;
-
+import com.capella.esb.database.entity.User;
+import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.capella.esb.database.entity.User;
+import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:META-INF/spring/database-jpa-context.xml")
